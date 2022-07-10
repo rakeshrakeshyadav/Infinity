@@ -1,7 +1,7 @@
 Team Name: Infinity
 Team Members:
 Rakesh Kumar Yadav
-Arbaaz Khan
-Shivam Singh
-Sohil
-Anish Jha
+Arbaaz Khan--navbar.html
+Shivam Singh-signup.html
+Sohil-mensPage.html
+Anish Jha-login.html

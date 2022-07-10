@@ -1,44 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navbar</title>
     <style>
-        #container{
-            background-color: rgb(42, 40, 40);
-            color: white;
-            width: 90%;
-            margin: auto;
-            border: 1px solid;
-            border-radius: 20px;
-            display: flex;
-        }
-        #container>div{
-            padding: 2%;
-        }
-        #child{
-            display: flex;
-            margin-left: 60%;
-            /* justify-content: space-between; */
-        }
-        #child div{
-            padding-left: 20%;
-        }
+      #container {
+        background-color: rgb(42, 40, 40);
+        color: white;
+        width: 90%;
+        margin: auto;
+        border: 1px solid;
+        border-radius: 20px;
+        display: flex;
+      }
+      #container > div {
+        padding: 2%;
+      }
+      #child {
+        display: flex;
+        margin-left: 60%;
+        /* justify-content: space-between; */
+      }
+      #child div {
+        padding-left: 20%;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="container">
+      <div>Reebok</div>
+      <div id="child">
         <div>
-            Reebok
+          <a href="mensPage.html">Men</a>
         </div>
-        <div id="child">
-            <div>Men</div>
-            <div>Women</div>
-            <div>Login</div>
-            <div>Signup</div>
+        <div>
+          <a href="mensPage.html">Women</a>
         </div>
+        <div>
+          <a href="login.html">Login</a>
+        </div>
+        <div>
+          <a href="signup.html">Signup</a>
+        </div>
+      </div>
     </div>
-</body>
-</html>
+  </body>
+</html> 
